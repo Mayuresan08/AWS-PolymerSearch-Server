@@ -19,7 +19,7 @@ app.use(express.json())
 
 const port=process.env.PORT
 
-app.listen(port,()=>{
+app.listen(port ||3000,()=>{
     console.log("server running in port ",port)
 })
 }
